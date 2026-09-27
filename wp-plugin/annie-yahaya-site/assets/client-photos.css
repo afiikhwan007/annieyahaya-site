@@ -1,0 +1,18 @@
+/* CLIENT PHOTOS — opt-in classes; no effect until approved photos are placed. */
+body.annie-site .annie-client-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border: 1px solid #0E0E0D;
+  border-radius: 0;
+  box-shadow: none;
+}
+body.annie-site .annie-client-photo--portrait { aspect-ratio: 4 / 5; }
+body.annie-site .annie-client-photo--cohort { object-position: center 70%; }
+body.annie-site .annie-photo-caption {
+  font: 600 .7rem/1.5 'Manrope', Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+/* Layout-specific photo placement waits for pilot approval. */

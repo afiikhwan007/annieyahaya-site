@@ -1,0 +1,27 @@
+<form class="enquiry" id="enquiry-form">
+          <div class="field-pair">
+            <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
+            <div><label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+          </div>
+          <label for="organisation">Organisation <span>(optional)</span></label>
+          <input id="organisation" name="organisation" autocomplete="organization">
+          <label for="interest">I want Annie involved in</label>
+          <select id="interest" name="interest">
+            <option value="executive coaching">executive coaching</option>
+            <option value="life coaching">life coaching</option>
+            <option value="speaking">a speaking or facilitation engagement</option>
+            <option value="organisational">an organisational development need</option>
+            <option value="coach education">coach education or certification</option>
+            <option value="faithtech">NURANI or FaithTech</option>
+            <option value="reflection tools">Whispers of the Heart or reflection tools</option>
+            <option value="build">an idea that may need to be built</option>
+          </select>
+          <label for="situation">What is happening?</label>
+          <textarea id="situation" name="situation" rows="5" placeholder="The decision, possibility or human need you want Annie to understand…" required></textarea>
+          <button id="copy" type="submit">Prepare my message <span>→</span></button>
+          <div class="message-actions" id="message-actions" hidden>
+            <a id="email-annie" href="#">Open in email <span aria-hidden="true">↗</span></a>
+            <button id="copy-message" type="button">Copy message</button>
+          </div>
+          <p id="status" aria-live="polite"></p>
+        </form>

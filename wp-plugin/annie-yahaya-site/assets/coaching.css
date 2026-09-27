@@ -1,0 +1,139 @@
+.coaching-service {
+  padding: 8vw 3.5vw;
+  background: var(--paper);
+}
+
+.coaching-intro {
+  display: grid;
+  grid-template-columns: 1.15fr .85fr;
+  gap: 9vw;
+  align-items: end;
+  padding: 5vw 0;
+}
+
+.coaching-intro h2 {
+  margin: 0;
+  font: 400 clamp(3.5rem, 7vw, 7.8rem)/.88 var(--serif);
+  letter-spacing: -.055em;
+}
+
+.coaching-intro .lead { font-size: 1.35rem; }
+
+.service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--ink);
+}
+
+.service-card {
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem;
+  border-right: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.service-card.executive { background: var(--ink); color: #fff; }
+.service-card.life { background: var(--future-green); color: var(--future-ink); }
+
+.service-card > span,
+.faith-note .overline {
+  font: 700 .68rem var(--label);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.service-card > span { margin-bottom: auto; }
+
+.service-card h3 {
+  max-width: 650px;
+  margin: 5rem 0 1.2rem;
+  font: 400 clamp(2.2rem, 4vw, 4.5rem)/.96 var(--serif);
+  letter-spacing: -.04em;
+}
+
+.service-card p { max-width: 650px; margin-bottom: 0; }
+
+.faith-note {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9vw;
+  padding: 5vw 0;
+  border-bottom: 1px solid var(--ink);
+}
+
+.faith-note .overline { color: var(--future-green); }
+
+.faith-note h3 {
+  max-width: 650px;
+  margin: 1.5rem 0 0;
+  font: 400 clamp(2.3rem, 4.3vw, 4.8rem)/.96 var(--serif);
+  letter-spacing: -.04em;
+}
+
+.faith-note .boundary {
+  margin-top: 2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--line);
+  color: var(--grey);
+  font-size: .85rem;
+}
+
+.session-flow {
+  display: grid;
+  grid-template-columns: .75fr 1.25fr;
+  gap: 8vw;
+  padding-top: 5vw;
+}
+
+.session-flow > h3 {
+  margin: 0;
+  font: 400 clamp(2.5rem, 4.6vw, 5rem)/.96 var(--serif);
+  letter-spacing: -.04em;
+}
+
+.session-flow ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--ink);
+}
+
+.session-flow li {
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.session-flow li span { color: var(--future-green); font: 700 .68rem var(--label); }
+
+.coaching-cta {
+  grid-column: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 56px;
+  padding: .9rem 1.1rem;
+  background: var(--ink);
+  color: #fff;
+  text-decoration: none;
+  font: 700 .76rem var(--label);
+}
+
+.coaching-cta:hover { background: var(--future-green); }
+
+@media (max-width: 700px) {
+  .coaching-service { padding: 5rem 5vw; }
+  .coaching-intro,
+  .service-grid,
+  .faith-note,
+  .session-flow { grid-template-columns: 1fr; }
+  .coaching-intro,
+  .faith-note,
+  .session-flow { gap: 3rem; }
+  .service-card { min-height: 400px; }
+  .coaching-cta { grid-column: 1; }
+}
