@@ -1,0 +1,20 @@
+{
+  "adminbar": false,
+  "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-15 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-catalogue catalogue-page hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-15",
+  "styles": [
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.5.1",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.5.1",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.3.2",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/uploads/elementor/css/post-6.css?ver=1790628684",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/uploads/elementor/css/post-15.css?ver=1790629291",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/uploads/elementor/css/base-desktop.css?ver=6abad37ea1d13",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/uploads/elementor/css/base-mobile.css?ver=6abad37ea1d13",
+    "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/plugins/annie-yahaya-site/assets/elementor-neutraliser.css?ver=1790628583",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/plugins/annie-yahaya-site/assets/scoped/styles.css?ver=1790628583",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/plugins/annie-yahaya-site/assets/scoped/creations.css?ver=1790628583",
+    "https://aqua-jaguar-251427.hostingersite.com/wp-content/plugins/annie-yahaya-site/assets/client-photos.css?ver=1790628583"
+  ],
+  "text": ""
+}

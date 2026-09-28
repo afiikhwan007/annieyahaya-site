@@ -1,6 +1,6 @@
 # Annie Yahaya Site 0.2.0 — installation handoff
 
-Prepared 28 September 2026. **Local tests pass; live pilot QA pending installation.**
+Prepared 28 September 2026. **Owner installation verified 29 September 2026; live pilot reviewed.** See [current pilot QA](../qa/pilot-v020/PILOT_REVIEW.md). The original installation instructions and implementation details follow.
 
 ## Install
 
@@ -32,7 +32,7 @@ The `elementor/frontend/the_content` filter uses WordPress's HTML Tag Processor.
 | 2a39dad0 (Thread section) | aria-label=The thread running through Annie’s work |
 | 29e9c792, 17887ea4 (Hero links) | first source arrow span: aria-hidden=true |
 
-Page 15's map is empty until its content build is approved. Main **6333a47a** → `main`, Hero **2f9459a5** → `top`, Navigation **282c8e1a** → `nav` must be saved in Elementor General → ID. The filter deliberately does not inject IDs. This browser session required sign-in, so these editor changes remain pending.
+Page 15's map is empty until its content build is approved. Main **6333a47a** → `main`, Hero **2f9459a5** → `top`, Navigation **282c8e1a** → `nav` were saved in Elementor General → ID on 29 September 2026 and verified in a fresh signed preview. The filter deliberately does not inject IDs.
 
 Font handling dequeues only Elementor Roboto/Roboto Slab handles (including local Google-font variants) on pages 14/15, with a final output guard for late enqueues. Reference font links and other families/pages remain intact; mixed-family links are not discarded.
 
@@ -48,6 +48,6 @@ Hook references: [Elementor frontend content](https://developers.elementor.com/d
 
 Commands: `node --test tests/scope-css.test.cjs`; `php tests/plugin-test.php`; set `WP_HTML_API_DIR` to a WordPress `wp-includes/html-api` directory then run `php tests/compatibility-test.php`; `node tests/home-loader-test.cjs`; `python scripts/build-plugin.py`.
 
-## Next — after owner installation
+## Next — owner pilot review
 
-Finish the three IDs in the editor, then validate a fresh signed preview in a signed-out browser. Capture reference/build at 375/768/1280/1440 and use section captures if full-page stitching fails. Check mobile-menu toggling, expected fonts without Roboto, and horizontal overflow. Keep only header/hero/thread on Home; do not extend Catalogue, add other Home sections or publish before pilot approval.
+The three IDs, signed-out previews, four-width section comparisons, mobile menu, font stylesheet scope and overflow checks are complete. Full-page stitching remains unreliable; the review documents the approved section-capture fallback and its limits. Keep only header/hero/thread on Home; do not extend Catalogue, add other Home sections or publish before pilot approval.

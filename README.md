@@ -2,9 +2,9 @@
 
 ## Current stage
 
-**0.2.0 update ready for owner installation.** The approved generic CSS generation/neutraliser, exact ARIA filter and page-scoped Roboto exclusions are implemented and locally tested. See [installation handoff](docs/PLUGIN_0.2.0.md). Live pilot checks and three Elementor IDs await the updated plugin and a signed-in editor. Canvas on pages 14/15 is approved. The previous review below records the pre-fix pilot, not the status of an installed 0.2.0 build.
+**0.2.0 installed and pilot ready for owner review (29 September 2026).** The three native Elementor IDs are saved. Fresh signed-out previews pass mobile-menu and horizontal-overflow checks at 375/768/1280/1440; measured pilot geometry matches the reference at all four widths. Expected font families are present and Roboto stylesheets absent. See the [current pilot review and section comparisons](qa/pilot-v020/PILOT_REVIEW.md) for evidence and screenshot limitations. Both pages remain Canvas drafts. Await approval before further sections or publication.
 
-Pilot created on 28 September 2026 and stopped at the CSS compatibility gate. Home draft **14** contains header, hero and thread artwork. Catalogue draft **15** has slug **creations** and remains empty. The active plugin is configured with those IDs. Nothing is published; homepage selection remains unchanged. See [pilot review](qa/pilot/PILOT_REVIEW.md) for evidence and the proposed fix.
+Pilot created on 28 September 2026. Home draft **14** contains header, hero and thread artwork. Catalogue draft **15** has slug **creations** and remains empty. The active plugin is configured with those IDs. Nothing is published; homepage selection remains unchanged. The [original pilot review](qa/pilot/PILOT_REVIEW.md) is historical pre-fix evidence.
 
 The restructure and foundation commits are synced to GitHub main as `f46a6a1` and `7fd4fd6`, with trees matching the original local commits. Reference/photo/PDF blobs are unchanged. The supplied decisions attachment matches the committed root `PHASE_1_DECISIONS.md`; no duplicate or empty commit is needed.
 
@@ -29,7 +29,7 @@ Run the reference with `python -m http.server 8000 --directory reference`, then 
 2. WordPress → Plugins → Add New Plugin → Upload Plugin.
 3. Upload `dist/annie-yahaya-site.zip`, install and activate **Annie Yahaya Site**.
 4. Current installation is active. Settings → Annie Yahaya Site contains Home **14** and Catalogue **15**.
-5. Saving these IDs does not publish or select the homepage. Further compatibility changes are proposed in the pilot review and have not been installed.
+5. Saving these IDs does not publish or select the homepage. The owner installed compatibility version 0.2.0, verified active on 29 September 2026.
 
 One option, `annie_yahaya_site_page_ids`, stores `home` and `catalogue`. The plugin does not guess IDs from slugs. Duplicate IDs and non-page IDs are rejected.
 

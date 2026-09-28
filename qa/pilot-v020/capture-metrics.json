@@ -1,0 +1,1894 @@
+[
+  {
+    "kind": "build",
+    "width": 375,
+    "top": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 360,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 375.3333435058594,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 360,
+          "x": 0,
+          "y": 1112.625
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 375.3333435058594,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 360,
+          "x": 0,
+          "y": 1112.625
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "22.4px",
+          "h": 93.16667175292967,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 238.2291717529297,
+          "x": 18.760417938232425,
+          "y": 1376.03125
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 1048.625,
+          "margin": "0px",
+          "padding": "56px 18.7667px",
+          "w": 360,
+          "x": 0,
+          "y": 64
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 162.14584350585938,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 120
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 926.0625
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 485.8958435058594,
+          "margin": "64px 0px",
+          "padding": "0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 361.15625
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 64,
+          "margin": "0px",
+          "padding": "0px 13.1367px",
+          "w": 360,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "scrollWidth": 360,
+      "width": 375,
+      "y": 0
+    },
+    "lower": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 360,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 375.3333435058594,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 360,
+          "x": 0,
+          "y": 1112.625
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 375.3333435058594,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 360,
+          "x": 0,
+          "y": 1112.625
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "22.4px",
+          "h": 93.16667175292967,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 238.2291717529297,
+          "x": 18.760417938232425,
+          "y": 1376.03125
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 1048.625,
+          "margin": "0px",
+          "padding": "56px 18.7667px",
+          "w": 360,
+          "x": 0,
+          "y": 64
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 162.14584350585938,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 120
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 926.0625
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 485.8958435058594,
+          "margin": "64px 0px",
+          "padding": "0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 361.15625
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 64,
+          "margin": "0px",
+          "padding": "0px 13.1367px",
+          "w": 360,
+          "x": 0,
+          "y": 588
+        }
+      },
+      "scrollWidth": 360,
+      "width": 375,
+      "y": 588
+    }
+  },
+  {
+    "kind": "reference",
+    "width": 375,
+    "top": {
+      "body": "",
+      "client": 360,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 375.3333435058594,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 360,
+          "x": 0,
+          "y": 1112.625
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 375.3333435058594,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 360,
+          "x": 0,
+          "y": 1112.625
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "22.4px",
+          "h": 93.16667175292967,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 238.2291717529297,
+          "x": 18.760417938232425,
+          "y": 1376.03125
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 1048.625,
+          "margin": "0px",
+          "padding": "56px 18.7667px",
+          "w": 360,
+          "x": 0,
+          "y": 64
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 162.14584350585938,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 120
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 926.0625
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 485.8958435058594,
+          "margin": "64px 0px",
+          "padding": "0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 361.15625
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 64,
+          "margin": "0px",
+          "padding": "0px 13.1367px",
+          "w": 360,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "scrollWidth": 360,
+      "width": 375,
+      "y": 0
+    },
+    "lower": {
+      "body": "",
+      "client": 360,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 375.3333435058594,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 360,
+          "x": 0,
+          "y": 1112.625
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 375.3333435058594,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 360,
+          "x": 0,
+          "y": 1112.625
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "22.4px",
+          "h": 93.16667175292967,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 238.2291717529297,
+          "x": 18.760417938232425,
+          "y": 1376.03125
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 1048.625,
+          "margin": "0px",
+          "padding": "56px 18.7667px",
+          "w": 360,
+          "x": 0,
+          "y": 64
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 162.14584350585938,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 120
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 926.0625
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 485.8958435058594,
+          "margin": "64px 0px",
+          "padding": "0px",
+          "w": 322.47918701171875,
+          "x": 18.760417938232425,
+          "y": 361.15625
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 64,
+          "margin": "0px",
+          "padding": "0px 13.1367px",
+          "w": 360,
+          "x": 0,
+          "y": 588
+        }
+      },
+      "scrollWidth": 360,
+      "width": 375,
+      "y": 588
+    }
+  },
+  {
+    "kind": "build",
+    "width": 768,
+    "top": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 753,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 476.15625,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 476.15625,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "22.4px",
+          "h": 93.16667175292967,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 238.2291717529297,
+          "x": 483.71875,
+          "y": 1252.2708740234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "46.08px 26.88px 26.88px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 476.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 146.1666717529297,
+          "x": 26.875,
+          "y": 122.07292175292967
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 522.03125,
+          "x": 203.7604217529297,
+          "y": 742.5625
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 362.9791870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 522.03125,
+          "x": 203.7604217529297,
+          "y": 178.77084350585938
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 26.88px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "scrollWidth": 753,
+      "width": 768,
+      "y": 0
+    },
+    "lower": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 753,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 476.15625,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 476.15625,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "22.4px",
+          "h": 93.16667175292967,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 238.2291717529297,
+          "x": 483.71875,
+          "y": 1252.2708740234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "46.08px 26.88px 26.88px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 476.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 146.1666717529297,
+          "x": 26.875,
+          "y": 122.07290649414062
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 522.03125,
+          "x": 203.7604217529297,
+          "y": 742.5625
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 362.9791870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 522.03125,
+          "x": 203.7604217529297,
+          "y": 178.77081298828125
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 26.88px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 476
+        }
+      },
+      "scrollWidth": 753,
+      "width": 768,
+      "y": 476
+    }
+  },
+  {
+    "kind": "reference",
+    "width": 768,
+    "top": {
+      "body": "",
+      "client": 753,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 476.15625,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 476.15625,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "22.4px",
+          "h": 93.16667175292967,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 238.2291717529297,
+          "x": 483.71875,
+          "y": 1252.2708740234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "46.08px 26.88px 26.88px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 476.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 146.1666717529297,
+          "x": 26.875,
+          "y": 122.07292175292967
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 522.03125,
+          "x": 203.7604217529297,
+          "y": 742.5625
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 362.9791870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 522.03125,
+          "x": 203.7604217529297,
+          "y": 178.77084350585938
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 26.88px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "scrollWidth": 753,
+      "width": 768,
+      "y": 0
+    },
+    "lower": {
+      "body": "",
+      "client": 753,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 476.15625,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 476.15625,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "22.4px",
+          "h": 93.16667175292967,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 238.2291717529297,
+          "x": 483.71875,
+          "y": 1252.2708740234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "46.08px 26.88px 26.88px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 476.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 146.1666717529297,
+          "x": 26.875,
+          "y": 122.07290649414062
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 522.03125,
+          "x": 203.7604217529297,
+          "y": 742.5625
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 362.9791870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 522.03125,
+          "x": 203.7604217529297,
+          "y": 178.77081298828125
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 26.88px",
+          "w": 752.6666870117188,
+          "x": 0,
+          "y": 476
+        }
+      },
+      "scrollWidth": 753,
+      "width": 768,
+      "y": 476
+    }
+  },
+  {
+    "kind": "build",
+    "width": 1280,
+    "top": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 1265,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "30.72px",
+          "h": 111.125,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 310.15625,
+          "x": 903.3125,
+          "y": 1497.6771240234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "76.8px 44.8px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 701.75,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 194.48959350585935,
+          "x": 44.79166793823242,
+          "y": 152.7916717529297
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 154.8541717529297,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 200.3854217529297,
+          "x": 1019.4791870117188,
+          "y": 699.6875
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 458.1666870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 677.8021240234375,
+          "x": 290.47918701171875,
+          "y": 274.5833435058594
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "scrollWidth": 1265,
+      "width": 1280,
+      "y": 0
+    },
+    "lower": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 1265,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "30.72px",
+          "h": 111.125,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 310.15625,
+          "x": 903.3125,
+          "y": 1497.6771240234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "76.8px 44.8px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 701.75,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 194.48959350585935,
+          "x": 44.79166793823242,
+          "y": 152.7916259765625
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 154.8541717529297,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 200.3854217529297,
+          "x": 1019.4791870117188,
+          "y": 699.6875
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 458.1666870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 677.8021240234375,
+          "x": 290.47918701171875,
+          "y": 274.58331298828125
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 720
+        }
+      },
+      "scrollWidth": 1265,
+      "width": 1280,
+      "y": 720
+    },
+    "end": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 1265,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "30.72px",
+          "h": 111.125,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 310.15625,
+          "x": 903.3125,
+          "y": 1497.6771240234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "76.8px 44.8px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 701.75,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 194.48959350585935,
+          "x": 44.79166793823242,
+          "y": 152.7916259765625
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 154.8541717529297,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 200.3854217529297,
+          "x": 1019.4791870117188,
+          "y": 699.6875
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 458.1666870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 677.8021240234375,
+          "x": 290.47918701171875,
+          "y": 274.58331298828125
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 760
+        }
+      },
+      "scrollWidth": 1265,
+      "width": 1280,
+      "y": 760
+    }
+  },
+  {
+    "kind": "reference",
+    "width": 1280,
+    "top": {
+      "body": "",
+      "client": 1265,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "30.72px",
+          "h": 111.125,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 310.15625,
+          "x": 903.3125,
+          "y": 1497.6771240234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "76.8px 44.8px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 701.75,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 194.48959350585935,
+          "x": 44.79166793823242,
+          "y": 152.7916717529297
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 154.8541717529297,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 200.3854217529297,
+          "x": 1019.4791870117188,
+          "y": 699.6875
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 458.1666870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 677.8021240234375,
+          "x": 290.47918701171875,
+          "y": 274.5833435058594
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "scrollWidth": 1265,
+      "width": 1280,
+      "y": 0
+    },
+    "lower": {
+      "body": "",
+      "client": 1265,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "30.72px",
+          "h": 111.125,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 310.15625,
+          "x": 903.3125,
+          "y": 1497.6771240234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "76.8px 44.8px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 701.75,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 194.48959350585935,
+          "x": 44.79166793823242,
+          "y": 152.7916259765625
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 154.8541717529297,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 200.3854217529297,
+          "x": 1019.4791870117188,
+          "y": 699.6875
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 458.1666870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 677.8021240234375,
+          "x": 290.47918701171875,
+          "y": 274.58331298828125
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 720
+        }
+      },
+      "scrollWidth": 1265,
+      "width": 1280,
+      "y": 720
+    },
+    "end": {
+      "body": "",
+      "client": 1265,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "30.72px",
+          "h": 111.125,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 310.15625,
+          "x": 903.3125,
+          "y": 1497.6771240234375
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "76.8px 44.8px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 701.75,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 194.48959350585935,
+          "x": 44.79166793823242,
+          "y": 152.7916259765625
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 154.8541717529297,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 200.3854217529297,
+          "x": 1019.4791870117188,
+          "y": 699.6875
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 458.1666870117187,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 677.8021240234375,
+          "x": 290.47918701171875,
+          "y": 274.58331298828125
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 44.8px",
+          "w": 1264.666748046875,
+          "x": 0,
+          "y": 760
+        }
+      },
+      "scrollWidth": 1265,
+      "width": 1280,
+      "y": 760
+    }
+  },
+  {
+    "kind": "build",
+    "width": 1440,
+    "top": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 1425,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "34.56px",
+          "h": 119.4375,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 343.32293701171875,
+          "x": 1023.75,
+          "y": 1482.96875
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "86.4px 50.4px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 686.5416870117188,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 219.15625,
+          "x": 50.39583587646485,
+          "y": 162.39584350585938
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 225.7916717529297,
+          "x": 1148.46875,
+          "y": 719.0416870117188
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 499.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 763.7291870117188,
+          "x": 327.1458435058594,
+          "y": 255.9791717529297
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "scrollWidth": 1425,
+      "width": 1440,
+      "y": 0
+    },
+    "lower": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 1425,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "34.56px",
+          "h": 119.4375,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 343.32293701171875,
+          "x": 1023.75,
+          "y": 1482.96875
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "86.4px 50.4px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 686.5416870117188,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 219.15625,
+          "x": 50.39583587646485,
+          "y": 162.39581298828125
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 225.7916717529297,
+          "x": 1148.46875,
+          "y": 719.0416666269302
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 499.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 763.7291870117188,
+          "x": 327.1458435058594,
+          "y": 255.97915649414065
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 720
+        }
+      },
+      "scrollWidth": 1425,
+      "width": 1440,
+      "y": 720
+    },
+    "end": {
+      "body": "wp-singular page-template page-template-elementor_canvas single single-page postid-14 wp-embed-responsive wp-theme-hello-elementor annie-site annie-site-home hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-14 e--ua-blink e--ua-chrome e--ua-webkit",
+      "client": 1425,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "34.56px",
+          "h": 119.4375,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 343.32293701171875,
+          "x": 1023.75,
+          "y": 1482.96875
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "86.4px 50.4px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 686.5416870117188,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 219.15625,
+          "x": 50.39583587646485,
+          "y": 162.39581298828125
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 225.7916717529297,
+          "x": 1148.46875,
+          "y": 719.0416641235352
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 499.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 763.7291870117188,
+          "x": 327.1458435058594,
+          "y": 255.97915649414065
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 760
+        }
+      },
+      "scrollWidth": 1425,
+      "width": 1440,
+      "y": 760
+    }
+  },
+  {
+    "kind": "reference",
+    "width": 1440,
+    "top": {
+      "body": "",
+      "client": 1425,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "34.56px",
+          "h": 119.4375,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 343.32293701171875,
+          "x": 1023.75,
+          "y": 1482.96875
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "86.4px 50.4px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 686.5416870117188,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 219.15625,
+          "x": 50.39583587646485,
+          "y": 162.39584350585938
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 225.7916717529297,
+          "x": 1148.46875,
+          "y": 719.0416870117188
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 499.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 763.7291870117188,
+          "x": 327.1458435058594,
+          "y": 255.9791717529297
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 0
+        }
+      },
+      "scrollWidth": 1425,
+      "width": 1440,
+      "y": 0
+    },
+    "lower": {
+      "body": "",
+      "client": 1425,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "34.56px",
+          "h": 119.4375,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 343.32293701171875,
+          "x": 1023.75,
+          "y": 1482.96875
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "86.4px 50.4px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 686.5416870117188,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 219.15625,
+          "x": 50.39583587646485,
+          "y": 162.39581298828125
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 225.7916717529297,
+          "x": 1148.46875,
+          "y": 719.0416666269302
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 499.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 763.7291870117188,
+          "x": 327.1458435058594,
+          "y": 255.97915649414065
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 720
+        }
+      },
+      "scrollWidth": 1425,
+      "width": 1440,
+      "y": 720
+    },
+    "end": {
+      "body": "",
+      "client": 1425,
+      "fonts": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap"
+      ],
+      "height": 900,
+      "rects": {
+        ".future-thread": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread img": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 760,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 900
+        },
+        ".future-thread p": {
+          "font": "\"Libre Caslon Display\", Georgia, serif",
+          "fontSize": "34.56px",
+          "h": 119.4375,
+          "margin": "0px",
+          "padding": "22.4px",
+          "w": 343.32293701171875,
+          "x": 1023.75,
+          "y": 1482.96875
+        },
+        ".hero": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 824,
+          "margin": "0px",
+          "padding": "86.4px 50.4px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 76
+        },
+        ".hero-label": {
+          "font": "Manrope, Arial, sans-serif",
+          "fontSize": "11.52px",
+          "h": 686.5416870117188,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 219.15625,
+          "x": 50.39583587646485,
+          "y": 162.39581298828125
+        },
+        ".hero-note": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 129.89584350585938,
+          "margin": "0px",
+          "padding": "19.2px 0px",
+          "w": 225.7916717529297,
+          "x": 1148.46875,
+          "y": 719.0416641235352
+        },
+        ".hero-statement": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 499.375,
+          "margin": "0px",
+          "padding": "0px",
+          "w": 763.7291870117188,
+          "x": 327.1458435058594,
+          "y": 255.97915649414065
+        },
+        "header": {
+          "font": "\"DM Sans\", Arial, sans-serif",
+          "fontSize": "16px",
+          "h": 76,
+          "margin": "0px",
+          "padding": "0px 50.4px",
+          "w": 1424.666748046875,
+          "x": 0,
+          "y": 760
+        }
+      },
+      "scrollWidth": 1425,
+      "width": 1440,
+      "y": 760
+    }
+  }
+]
