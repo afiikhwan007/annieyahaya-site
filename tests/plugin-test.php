@@ -36,7 +36,8 @@ check(!$styles && !$scripts && metadata() === '' && AnnieYahayaSite\enquiry_form
 check(AnnieYahayaSite\document_title('Privacy Policy') === 'Privacy Policy', 'Unrelated title unchanged');
 $current_id = 101;
 AnnieYahayaSite\enqueue_assets();
-check(array_keys($styles) === array('annie-fonts','annie-styles','annie-coaching','annie-creations','annie-elementor-resets','annie-client-photos'), 'Home stylesheet order matches reference plus extension styles');
+check(array_keys($styles) === array('annie-fonts','annie-elementor-neutraliser','annie-styles','annie-coaching','annie-creations','annie-client-photos'), 'Neutraliser loads before generated reference CSS');
+check(strpos($styles['annie-styles'][0], '/scoped/styles.css') !== false, 'Generated CSS is enqueued instead of unscoped original');
 check(isset($scripts['annie-home-loader']) && !isset($scripts['annie-catalogue']) && strpos($inline['annie-home-loader'], '/script.js?') !== false, 'Home selects only Home reference script');
 $source = file_get_contents(__DIR__ . '/../reference/index.html');
 preg_match('/<form\b[^>]*id="enquiry-form"[\s\S]*?<\/form>/', $source, $match);

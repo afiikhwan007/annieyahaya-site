@@ -1,0 +1,12 @@
+/* Generic atomic compatibility. Enqueued only on the two configured pages.
+ * :where() keeps this below scoped reference selectors. Loading it first lets
+ * equal-specificity source rules win. `revert` restores UA/inherited values,
+ * unlike `initial` (which would make semantic block containers inline).
+ * No element IDs, section classes, breakpoints or reference design values.
+ */
+body.annie-site .elementor,
+body.annie-site .elementor :where(.e-con, .e-div-block-base, .e-flexbox-base, .e-grid-base),
+body.annie-site .elementor :where(.e-button-base, .e-heading-base, .e-paragraph-base, .e-image-base) {
+  all: revert;
+  box-sizing: border-box;
+}

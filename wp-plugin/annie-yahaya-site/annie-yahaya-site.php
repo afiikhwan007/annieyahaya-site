@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Annie Yahaya Site
  * Description: Page-scoped reference assets, enquiry shortcode and homepage metadata.
- * Version: 0.1.0
+ * Version: 0.2.0
  * Requires at least: 6.8
  * Requires PHP: 7.4
  * Author: Annie Yahaya
@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-const VERSION = '0.1.0';
+const VERSION = '0.2.0';
 const OPTION = 'annie_yahaya_site_page_ids';
 
 /** One option holds both IDs; zero means unconfigured and matches no page. */
@@ -53,11 +53,11 @@ function enqueue_assets() {
         return;
     }
     wp_enqueue_style('annie-fonts', 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Manrope:wght@500;600;700&display=swap', array(), null);
-    $files = array('styles.css');
+    $files = array('elementor-neutraliser.css', 'scoped/styles.css');
     if ($role === 'home') {
-        $files[] = 'coaching.css';
+        $files[] = 'scoped/coaching.css';
     }
-    $files = array_merge($files, array('creations.css', 'elementor-resets.css', 'client-photos.css'));
+    $files = array_merge($files, array('scoped/creations.css', 'client-photos.css'));
     $previous = 'annie-fonts';
     foreach ($files as $file) {
         $handle = 'annie-' . basename($file, '.css');
@@ -88,6 +88,8 @@ function body_classes($classes) {
     return $classes;
 }
 add_filter('body_class', __NAMESPACE__ . '\\body_classes');
+
+require_once __DIR__ . '/compatibility.php';
 
 function enquiry_form() {
     if (page_role() !== 'home') {

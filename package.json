@@ -1,0 +1,12 @@
+{
+  "name": "annie-yahaya-reference-tools",
+  "private": true,
+  "scripts": {
+    "build:css": "node scripts/scope-css.cjs",
+    "test:css": "node --test tests/scope-css.test.cjs"
+  },
+  "devDependencies": {
+    "postcss": "8.5.28",
+    "postcss-selector-parser": "7.1.6"
+  }
+}

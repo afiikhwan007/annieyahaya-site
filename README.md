@@ -2,6 +2,8 @@
 
 ## Current stage
 
+**0.2.0 update ready for owner installation.** The approved generic CSS generation/neutraliser, exact ARIA filter and page-scoped Roboto exclusions are implemented and locally tested. See [installation handoff](docs/PLUGIN_0.2.0.md). Live pilot checks and three Elementor IDs await the updated plugin and a signed-in editor. Canvas on pages 14/15 is approved. The previous review below records the pre-fix pilot, not the status of an installed 0.2.0 build.
+
 Pilot created on 28 September 2026 and stopped at the CSS compatibility gate. Home draft **14** contains header, hero and thread artwork. Catalogue draft **15** has slug **creations** and remains empty. The active plugin is configured with those IDs. Nothing is published; homepage selection remains unchanged. See [pilot review](qa/pilot/PILOT_REVIEW.md) for evidence and the proposed fix.
 
 The restructure and foundation commits are synced to GitHub main as `f46a6a1` and `7fd4fd6`, with trees matching the original local commits. Reference/photo/PDF blobs are unchanged. The supplied decisions attachment matches the committed root `PHASE_1_DECISIONS.md`; no duplicate or empty commit is needed.
@@ -34,9 +36,9 @@ One option, `annie_yahaya_site_page_ids`, stores `home` and `catalogue`. The plu
 ## Plugin behaviour
 
 - Exact reference Google Fonts URL, only on configured pages.
-- Home CSS: styles → coaching → creations → elementor-resets → client-photos. Catalogue omits coaching.
+- Home CSS: neutraliser → generated scoped styles → scoped coaching → scoped creations → client-photos. Catalogue omits coaching.
 - Original CSS, JS and artwork copied unchanged to assets/. Git attributes preserve LF source bytes across Windows checkouts.
-- Resets are opt-in and documented; further fixes need pilot evidence. Photo styles are prepared, but placement remains pending.
+- A single generic neutraliser removes atomic defaults before generated reference styles. It has no per-element patches. Photo styles are prepared, but placement remains pending.
 - A small Home footer loader loads unchanged script.js once the full header/form/year DOM exists. On the partial pilot it supports available menu/year nodes without triggering missing-form errors. It never loads page.js on Home. Catalogue loads only page.js.
 - `[annie_enquiry_form]` returns the exact source form once on configured Home only. No server submission; original behaviour prepares a message then offers Open in email and Copy message.
 - Home title, description and OG tags use exact reference copy and packaged artwork.
@@ -71,11 +73,11 @@ The ZIP is installed and page scoping is verified on Home. Four-width pilot fide
 
 ## Remaining gates
 
-1. Review and approve the proposed page-scoped V4 compatibility fix.
-2. Apply the approved fix and have the owner install the updated plugin ZIP.
+1. Generic V4 compatibility fix approved and implemented in version 0.2.0.
+2. Owner installs the updated plugin ZIP and signs in to the editor.
 3. Finish pilot IDs/ARIA, repeat screenshots and menu/font/overflow QA.
 4. Obtain explicit pilot approval before extending content.
 5. Complete sections, catalogue, photo optimisation/upload, CONTENT_DIFF.md and full QA.
 6. Await explicit publish confirmation before publication, homepage assignment and authorised cache regeneration.
 
-Thread artwork was uploaded as WebP media **30** with the reference alt text. Client photos remain untouched. No global colours/fonts/breakpoints were changed. Both pages use Canvas to avoid duplicate theme chrome, a documented deviation from Full Width awaiting review.
+Thread artwork was uploaded as WebP media **30** with the reference alt text. Client photos remain untouched. No global colours/fonts/breakpoints were changed. Both pages use the approved Canvas template to avoid duplicate theme chrome.
