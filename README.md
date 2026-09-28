@@ -2,9 +2,9 @@
 
 ## Current stage
 
-Phase 1 foundation package prepared on 28 September 2026. Home and Catalogue have not been created or published. Their page IDs remain unconfigured. The homepage remains latest posts. Next: owner plugin installation confirmation and editor check, followed by the header/hero/artwork pilot.
+Pilot created on 28 September 2026 and stopped at the CSS compatibility gate. Home draft **14** contains header, hero and thread artwork. Catalogue draft **15** has slug **creations** and remains empty. The active plugin is configured with those IDs. Nothing is published; homepage selection remains unchanged. See [pilot review](qa/pilot/PILOT_REVIEW.md) for evidence and the proposed fix.
 
-The local `Organise inputs into reference/photos/docs` commit uses `git mv`; moved source/photo/PDF blobs are unchanged. GitHub rejected writes with `403 Resource not accessible by integration`, so local commits are **not yet synced to main**. The supplied Git bundle preserves the complete history. The GitHub app needs Contents read/write access before syncing.
+The restructure and foundation commits are synced to GitHub main as `f46a6a1` and `7fd4fd6`, with trees matching the original local commits. Reference/photo/PDF blobs are unchanged. The supplied decisions attachment matches the committed root `PHASE_1_DECISIONS.md`; no duplicate or empty commit is needed.
 
 ## Repository inputs
 
@@ -26,8 +26,8 @@ Run the reference with `python -m http.server 8000 --directory reference`, then 
 1. Take the requested full backup.
 2. WordPress → Plugins → Add New Plugin → Upload Plugin.
 3. Upload `dist/annie-yahaya-site.zip`, install and activate **Annie Yahaya Site**.
-4. Leave Settings → Annie Yahaya Site → both page IDs at **0** until the two drafts exist. Activation alone has no front-end effect.
-5. Confirm installation. We will create the drafts and provide their IDs for this screen. Saving these IDs does not publish or select the homepage.
+4. Current installation is active. Settings → Annie Yahaya Site contains Home **14** and Catalogue **15**.
+5. Saving these IDs does not publish or select the homepage. Further compatibility changes are proposed in the pilot review and have not been installed.
 
 One option, `annie_yahaya_site_page_ids`, stores `home` and `catalogue`. The plugin does not guess IDs from slugs. Duplicate IDs and non-page IDs are rejected.
 
@@ -52,10 +52,10 @@ Authorised disposable draft: **MCP test — delete me**, ID **11**.
 - Editor: https://aqua-jaguar-251427.hostingersite.com/wp-admin/post.php?post=11&action=elementor
 - Logged-in preview: https://aqua-jaguar-251427.hostingersite.com/?page_id=11&preview_id=11&preview=true
 - Native e-flexbox and e-heading render on a signed snapshot, including italic markup and local styles.
-- Editor access redirected to WordPress login. Editor opening/editability is **not verified**. Please open this draft in your logged-in editor and confirm the container/heading are editable; do not publish it.
+- Editor opening/editability **passed** in the signed-in session: native heading Title, Tag and ID controls were accessible. No test content was changed.
 - Page 8 and Privacy Policy were not changed. The disposable draft remains for the editor check.
 
-No cache was purged or LiteSpeed settings changed. The screenshot used a new signed draft snapshot rather than a previously cached published page. Inspect minify/combine and perform only page-scoped purges before actual pilot/QA screenshots.
+LiteSpeed CSS/JS minify and combine are all OFF; no optimization setting was changed. An unintended toolbar action caused a global cache purge during pilot inspection, exceeding the page-only restriction. This was immediately disclosed; no further cache actions were taken. Details are in the pilot review.
 
 ## Form placement and editing
 
@@ -67,15 +67,15 @@ Annie will edit headings, prose, links and images using native Elementor element
 
 PHP 8.3.35 lint passed. Isolated PHP checks passed for scoping, page routing, stylesheet order, exact form markup, homepage SEO, invalid ID rejection and original asset hashes. JavaScript checks passed for pilot menu interaction and loading the original Home script without duplicate handlers. Tests use WordPress API doubles, not a live installed plugin.
 
-The ZIP needs installation and live WordPress integration testing. Four-width fidelity, full form browser QA and Lighthouse remain pending.
+The ZIP is installed and page scoping is verified on Home. Four-width pilot fidelity fails because V4 base styles override the reference; fixes are gated on review. Full form browser QA and Lighthouse remain pending. Viewport comparisons are in `qa/pilot/comparison-*.jpg`; full-page captures have documented stitching artifacts and are not acceptance evidence.
 
 ## Remaining gates
 
-1. Restore GitHub integration write access and sync saved commits.
-2. Owner installs plugin and confirms test draft editor access.
-3. Create Home/Catalogue drafts and configure their IDs.
-4. Build header + hero + artwork only; compare 375/768/1280/1440px and wait for pilot approval.
+1. Review and approve the proposed page-scoped V4 compatibility fix.
+2. Apply the approved fix and have the owner install the updated plugin ZIP.
+3. Finish pilot IDs/ARIA, repeat screenshots and menu/font/overflow QA.
+4. Obtain explicit pilot approval before extending content.
 5. Complete sections, catalogue, photo optimisation/upload, CONTENT_DIFF.md and full QA.
 6. Await explicit publish confirmation before publication, homepage assignment and authorised cache regeneration.
 
-No media was uploaded. No photo placement is completed or skipped yet. No global colours/fonts/breakpoints were changed by the agent.
+Thread artwork was uploaded as WebP media **30** with the reference alt text. Client photos remain untouched. No global colours/fonts/breakpoints were changed. Both pages use Canvas to avoid duplicate theme chrome, a documented deviation from Full Width awaiting review.

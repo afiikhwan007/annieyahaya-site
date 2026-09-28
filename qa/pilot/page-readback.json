@@ -1,0 +1,18 @@
+{
+  "pages": [
+    {
+      "id": 14,
+      "status": "draft",
+      "slug": "",
+      "template": "elementor_canvas",
+      "title": "Home"
+    },
+    {
+      "id": 15,
+      "status": "draft",
+      "slug": "creations",
+      "template": "elementor_canvas",
+      "title": "Complete Body of Work"
+    }
+  ]
+}
