@@ -2,6 +2,8 @@
 
 ## Current stage
 
+**Pilot approved; Stage 1 stopped before Work with Annie (29 September 2026).** Why I build is saved on Home 14 as native editable elements with literal ID `why`. The next section's definition-list tags are unsupported by the native MCP schemas; substituting tags would require section-specific CSS. No workaround was applied. See [Stage 1 stop report](qa/home-stage1/STOP_REPORT.md) for the precise gap and proposed semantic-tag adapter. Checkpoint 1 is incomplete; later sections, photos and Catalogue remain pending.
+
 **0.2.0 installed and pilot ready for owner review (29 September 2026).** The three native Elementor IDs are saved. Fresh signed-out previews pass mobile-menu and horizontal-overflow checks at 375/768/1280/1440; measured pilot geometry matches the reference at all four widths. Expected font families are present and Roboto stylesheets absent. See the [current pilot review and section comparisons](qa/pilot-v020/PILOT_REVIEW.md) for evidence and screenshot limitations. Both pages remain Canvas drafts. Await approval before further sections or publication.
 
 Pilot created on 28 September 2026. Home draft **14** contains header, hero and thread artwork. Catalogue draft **15** has slug **creations** and remains empty. The active plugin is configured with those IDs. Nothing is published; homepage selection remains unchanged. The [original pilot review](qa/pilot/PILOT_REVIEW.md) is historical pre-fix evidence.

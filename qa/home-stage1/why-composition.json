@@ -1,0 +1,75 @@
+{
+  "post_id": 14,
+  "parent_id": "6333a47a",
+  "mode": "append",
+  "xml_structure": "<e-div-block configuration-id=\"Why I build\"><e-div-block configuration-id=\"Why 2 section-id\"><e-paragraph configuration-id=\"Why 3 span\"></e-paragraph><e-paragraph configuration-id=\"Why 4 span\"></e-paragraph></e-div-block><e-div-block configuration-id=\"Why 5 why-main\"><e-heading configuration-id=\"Why 6 h2\"></e-heading><e-div-block configuration-id=\"Why 7 why-copy\"><e-paragraph configuration-id=\"Why 8 lead\"></e-paragraph><e-paragraph configuration-id=\"Why 9 p\"></e-paragraph><e-paragraph configuration-id=\"Why 10 world-within\"></e-paragraph><e-paragraph configuration-id=\"Why 11 p\"></e-paragraph><e-paragraph configuration-id=\"Why 12 signature\"></e-paragraph></e-div-block></e-div-block></e-div-block>",
+  "element_config": {
+    "Why 3 span": {
+      "tag": "span",
+      "paragraph": "01"
+    },
+    "Why 4 span": {
+      "tag": "span",
+      "paragraph": "Why I build"
+    },
+    "Why 2 section-id": {
+      "tag": "div"
+    },
+    "Why 6 h2": {
+      "tag": "h2",
+      "title": "Advice is everywhere.<br>Development needs<br><em>design.</em>"
+    },
+    "Why 8 lead": {
+      "tag": "p",
+      "paragraph": "A person can know what she should do and still struggle to do it. A leader can understand people and still fail them in the moment. A community can value growth and still lack a language for it."
+    },
+    "Why 9 p": {
+      "tag": "p",
+      "paragraph": "I am drawn to that space—the distance between knowing and becoming."
+    },
+    "Why 10 world-within": {
+      "tag": "p",
+      "paragraph": "<span>The World Within</span> A new way of seeing ourselves—because how we understand what is happening within us shapes how we speak, decide, lead, relate and create change."
+    },
+    "Why 11 p": {
+      "tag": "p",
+      "paragraph": "When I encounter a human need, I begin asking what would genuinely help. The answer may become a question, a facilitated conversation, a card deck, a curriculum, a community, an organisation or an intelligent companion."
+    },
+    "Why 12 signature": {
+      "tag": "p",
+      "paragraph": "I build the response the moment deserves."
+    },
+    "Why 7 why-copy": {
+      "tag": "div"
+    },
+    "Why 5 why-main": {
+      "tag": "div"
+    },
+    "Why I build": {
+      "tag": "section"
+    }
+  },
+  "classes": {
+    "Why 2 section-id": [
+      "section-id"
+    ],
+    "Why 8 lead": [
+      "lead"
+    ],
+    "Why 10 world-within": [
+      "world-within"
+    ],
+    "Why 12 signature": [
+      "signature"
+    ],
+    "Why 7 why-copy": [
+      "why-copy"
+    ],
+    "Why 5 why-main": [
+      "why-main"
+    ],
+    "Why I build": [
+      "why"
+    ]
+  }
+}
