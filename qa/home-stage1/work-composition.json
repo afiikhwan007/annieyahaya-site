@@ -1,0 +1,300 @@
+{
+  "post_id": 14,
+  "parent_id": "6333a47a",
+  "mode": "append",
+  "xml_structure": "<e-div-block configuration-id=\"Work with Annie\"><e-div-block configuration-id=\"Work 2 section-id\"><e-paragraph configuration-id=\"Work 3 span\"></e-paragraph><e-paragraph configuration-id=\"Work 4 span\"></e-paragraph></e-div-block><e-div-block configuration-id=\"Work 5 work-intro\"><e-div-block configuration-id=\"Work 6 div\"><e-paragraph configuration-id=\"Work 7 overline\"></e-paragraph><e-heading configuration-id=\"Work 8 h2\"></e-heading></e-div-block><e-div-block configuration-id=\"Work 9 work-intro-copy\"><e-paragraph configuration-id=\"Work 10 lead\"></e-paragraph><e-paragraph configuration-id=\"Work 11 p\"></e-paragraph></e-div-block></e-div-block><e-div-block configuration-id=\"Work 12 work-routes\"><e-div-block configuration-id=\"Work 13 route-card route-coaching\"><e-paragraph configuration-id=\"Work 14 route-no\"></e-paragraph><e-heading configuration-id=\"Work 15 h3\"></e-heading><e-paragraph configuration-id=\"Work 16 p\"></e-paragraph><e-div-block configuration-id=\"Work 17 dl\"><e-paragraph configuration-id=\"Work 18 dt\"></e-paragraph><e-paragraph configuration-id=\"Work 19 dd\"></e-paragraph></e-div-block><e-button configuration-id=\"Work 20 a\"></e-button></e-div-block><e-div-block configuration-id=\"Work 21 route-card route-organisation\"><e-paragraph configuration-id=\"Work 22 route-no\"></e-paragraph><e-heading configuration-id=\"Work 23 h3\"></e-heading><e-paragraph configuration-id=\"Work 24 p\"></e-paragraph><e-div-block configuration-id=\"Work 25 dl\"><e-paragraph configuration-id=\"Work 26 dt\"></e-paragraph><e-paragraph configuration-id=\"Work 27 dd\"></e-paragraph></e-div-block><e-button configuration-id=\"Work 28 a\"></e-button></e-div-block><e-div-block configuration-id=\"Work 29 route-card route-build\"><e-paragraph configuration-id=\"Work 30 route-no\"></e-paragraph><e-heading configuration-id=\"Work 31 h3\"></e-heading><e-paragraph configuration-id=\"Work 32 p\"></e-paragraph><e-div-block configuration-id=\"Work 33 dl\"><e-paragraph configuration-id=\"Work 34 dt\"></e-paragraph><e-paragraph configuration-id=\"Work 35 dd\"></e-paragraph></e-div-block><e-button configuration-id=\"Work 36 a\"></e-button></e-div-block></e-div-block><e-div-block configuration-id=\"Work 37 evidence\"><e-div-block configuration-id=\"Work 38 evidence-heading\"><e-paragraph configuration-id=\"Work 39 overline\"></e-paragraph><e-heading configuration-id=\"Work 40 h3\"></e-heading></e-div-block><e-div-block configuration-id=\"Work 41 evidence-list\"><e-div-block configuration-id=\"Work 42 article\"><e-paragraph configuration-id=\"Work 43 strong\"></e-paragraph><e-div-block configuration-id=\"Work 44 div\"><e-heading configuration-id=\"Work 45 h4\"></e-heading><e-paragraph configuration-id=\"Work 46 p\"></e-paragraph></e-div-block></e-div-block><e-div-block configuration-id=\"Work 47 article\"><e-paragraph configuration-id=\"Work 48 strong\"></e-paragraph><e-div-block configuration-id=\"Work 49 div\"><e-heading configuration-id=\"Work 50 h4\"></e-heading><e-paragraph configuration-id=\"Work 51 p\"></e-paragraph></e-div-block></e-div-block><e-div-block configuration-id=\"Work 52 article\"><e-paragraph configuration-id=\"Work 53 strong\"></e-paragraph><e-div-block configuration-id=\"Work 54 div\"><e-heading configuration-id=\"Work 55 h4\"></e-heading><e-paragraph configuration-id=\"Work 56 p\"></e-paragraph></e-div-block></e-div-block><e-div-block configuration-id=\"Work 57 article\"><e-paragraph configuration-id=\"Work 58 strong\"></e-paragraph><e-div-block configuration-id=\"Work 59 div\"><e-heading configuration-id=\"Work 60 h4\"></e-heading><e-paragraph configuration-id=\"Work 61 p\"></e-paragraph></e-div-block></e-div-block></e-div-block></e-div-block></e-div-block>",
+  "element_config": {
+    "Work 3 span": {
+      "tag": "span",
+      "paragraph": "02"
+    },
+    "Work 4 span": {
+      "tag": "span",
+      "paragraph": "Work with Annie"
+    },
+    "Work 2 section-id": {
+      "tag": "div"
+    },
+    "Work 7 overline": {
+      "tag": "p",
+      "paragraph": "Where Annie enters the work"
+    },
+    "Work 8 h2": {
+      "tag": "h2",
+      "title": "Bring Annie the situation<br>that <em>matters.</em>"
+    },
+    "Work 6 div": {
+      "tag": "div"
+    },
+    "Work 10 lead": {
+      "tag": "p",
+      "paragraph": "Annie begins by listening for what the moment requires. The response is built around the people who will live it."
+    },
+    "Work 11 p": {
+      "tag": "p",
+      "paragraph": "Come with a decision, a leadership need or an idea that refuses to stay small. Annie brings the questions, architecture and human understanding that help it take its next form."
+    },
+    "Work 9 work-intro-copy": {
+      "tag": "div"
+    },
+    "Work 5 work-intro": {
+      "tag": "div"
+    },
+    "Work 14 route-no": {
+      "tag": "span",
+      "paragraph": "01 / Private coaching"
+    },
+    "Work 15 h3": {
+      "tag": "h3",
+      "title": "A decision. A relationship. A next chapter."
+    },
+    "Work 16 p": {
+      "tag": "p",
+      "paragraph": "For Muslim women and leaders who want a thoughtful, faith-aligned conversation around the situation they are living."
+    },
+    "Work 18 dt": {
+      "tag": "span",
+      "paragraph": "An engagement may be"
+    },
+    "Work 19 dd": {
+      "tag": "span",
+      "paragraph": "A focused private session or a continuing coaching relationship."
+    },
+    "Work 17 dl": {
+      "tag": "div"
+    },
+    "Work 20 a": {
+      "tag": "a",
+      "text": "Explore coaching <span aria-hidden=\"true\">→</span>",
+      "link": {
+        "destination": "#coaching",
+        "isTargetBlank": false,
+        "tag": "a"
+      }
+    },
+    "Work 13 route-card route-coaching": {
+      "tag": "article"
+    },
+    "Work 22 route-no": {
+      "tag": "span",
+      "paragraph": "02 / Organisations"
+    },
+    "Work 23 h3": {
+      "tag": "h3",
+      "title": "When the people matter as much as the outcome."
+    },
+    "Work 24 p": {
+      "tag": "p",
+      "paragraph": "For leaders, teams and institutions developing how people lead, relate, mentor, learn and contribute together."
+    },
+    "Work 26 dt": {
+      "tag": "span",
+      "paragraph": "An engagement may be"
+    },
+    "Work 27 dd": {
+      "tag": "span",
+      "paragraph": "A keynote, facilitated experience, leadership program, mentoring initiative or coach education journey."
+    },
+    "Work 25 dl": {
+      "tag": "div"
+    },
+    "Work 28 a": {
+      "tag": "a",
+      "text": "Bring Annie into the room <span aria-hidden=\"true\">→</span>",
+      "link": {
+        "destination": "#begin",
+        "isTargetBlank": false,
+        "tag": "a"
+      }
+    },
+    "Work 21 route-card route-organisation": {
+      "tag": "article"
+    },
+    "Work 30 route-no": {
+      "tag": "span",
+      "paragraph": "03 / Build with Annie"
+    },
+    "Work 31 h3": {
+      "tag": "h3",
+      "title": "Give the human need a form people can use."
+    },
+    "Work 32 p": {
+      "tag": "p",
+      "paragraph": "For organisations and partners creating a program, curriculum, framework, community or FaithTech response around a real human need."
+    },
+    "Work 34 dt": {
+      "tag": "span",
+      "paragraph": "An engagement may be"
+    },
+    "Work 35 dd": {
+      "tag": "span",
+      "paragraph": "A design partnership, curriculum architecture, content curation or strategic development engagement."
+    },
+    "Work 33 dl": {
+      "tag": "div"
+    },
+    "Work 36 a": {
+      "tag": "a",
+      "text": "Bring Annie the idea <span aria-hidden=\"true\">→</span>",
+      "link": {
+        "destination": "#begin",
+        "isTargetBlank": false,
+        "tag": "a"
+      }
+    },
+    "Work 29 route-card route-build": {
+      "tag": "article"
+    },
+    "Work 12 work-routes": {
+      "tag": "div"
+    },
+    "Work 39 overline": {
+      "tag": "p",
+      "paragraph": "Evidence in real rooms"
+    },
+    "Work 40 h3": {
+      "tag": "h3",
+      "title": "The ideas have already<br>entered people’s lives."
+    },
+    "Work 38 evidence-heading": {
+      "tag": "div"
+    },
+    "Work 43 strong": {
+      "tag": "span",
+      "paragraph": "350+"
+    },
+    "Work 45 h4": {
+      "tag": "h4",
+      "title": "Coaches and practitioners developed"
+    },
+    "Work 46 p": {
+      "tag": "p",
+      "paragraph": "Through an academy and certification ecosystem Annie founded for Muslim women internationally."
+    },
+    "Work 44 div": {
+      "tag": "div"
+    },
+    "Work 42 article": {
+      "tag": "article"
+    },
+    "Work 48 strong": {
+      "tag": "span",
+      "paragraph": "2,800+"
+    },
+    "Work 50 h4": {
+      "tag": "h4",
+      "title": "People trained through Essence of Life™"
+    },
+    "Work 51 p": {
+      "tag": "p",
+      "paragraph": "A 297-card faith-conscious reflection system that turns image, questions and du’a into a way of seeing."
+    },
+    "Work 49 div": {
+      "tag": "div"
+    },
+    "Work 47 article": {
+      "tag": "article"
+    },
+    "Work 53 strong": {
+      "tag": "span",
+      "paragraph": "AKEPT × UNIMAP"
+    },
+    "Work 55 h4": {
+      "tag": "h4",
+      "title": "Mentor for Malaysia™ in practice"
+    },
+    "Work 56 p": {
+      "tag": "p",
+      "paragraph": "A five-session leadership and human development journey delivered as Mentoring for Excellence."
+    },
+    "Work 54 div": {
+      "tag": "div"
+    },
+    "Work 52 article": {
+      "tag": "article"
+    },
+    "Work 58 strong": {
+      "tag": "span",
+      "paragraph": "Since 2014"
+    },
+    "Work 60 h4": {
+      "tag": "h4",
+      "title": "Organisational work through Vital Voices Asia"
+    },
+    "Work 61 p": {
+      "tag": "p",
+      "paragraph": "Leadership, coaching and capability experiences curated for each organisation’s people and context."
+    },
+    "Work 59 div": {
+      "tag": "div"
+    },
+    "Work 57 article": {
+      "tag": "article"
+    },
+    "Work 41 evidence-list": {
+      "tag": "div"
+    },
+    "Work 37 evidence": {
+      "tag": "div"
+    },
+    "Work with Annie": {
+      "tag": "section"
+    }
+  },
+  "classes": {
+    "Work 2 section-id": [
+      "section-id"
+    ],
+    "Work 7 overline": [
+      "overline"
+    ],
+    "Work 10 lead": [
+      "lead"
+    ],
+    "Work 9 work-intro-copy": [
+      "work-intro-copy"
+    ],
+    "Work 5 work-intro": [
+      "work-intro"
+    ],
+    "Work 14 route-no": [
+      "route-no"
+    ],
+    "Work 13 route-card route-coaching": [
+      "route-card",
+      "route-coaching"
+    ],
+    "Work 22 route-no": [
+      "route-no"
+    ],
+    "Work 21 route-card route-organisation": [
+      "route-card",
+      "route-organisation"
+    ],
+    "Work 30 route-no": [
+      "route-no"
+    ],
+    "Work 29 route-card route-build": [
+      "route-card",
+      "route-build"
+    ],
+    "Work 12 work-routes": [
+      "work-routes"
+    ],
+    "Work 39 overline": [
+      "overline"
+    ],
+    "Work 38 evidence-heading": [
+      "evidence-heading"
+    ],
+    "Work 41 evidence-list": [
+      "evidence-list"
+    ],
+    "Work 37 evidence": [
+      "evidence"
+    ],
+    "Work with Annie": [
+      "work-with"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 
 ## Current stage
 
-**Pilot approved; Stage 1 stopped before Work with Annie (29 September 2026).** Why I build is saved on Home 14 as native editable elements with literal ID `why`. The next section's definition-list tags are unsupported by the native MCP schemas; substituting tags would require section-specific CSS. No workaround was applied. See [Stage 1 stop report](qa/home-stage1/STOP_REPORT.md) for the precise gap and proposed semantic-tag adapter. Checkpoint 1 is incomplete; later sections, photos and Catalogue remain pending.
+**Pilot and Why I build approved; semantic adapter 0.2.1 awaiting owner installation (29 September 2026).** Work with Annie, including Evidence in real rooms, is saved on Home 14 as 61 native editable elements. The owner approved recorded-ID semantic wrapper filtering. Local parser tests pass, including all 13 mappings against the actual Elementor-rendered DOM. Live installation, native IDs, an editor text-save test and visual comparison remain pending. See [0.2.1 installation handoff](docs/PLUGIN_0.2.1.md). Checkpoint 1 is incomplete; later sections, photos and Catalogue remain pending.
 
 **0.2.0 installed and pilot ready for owner review (29 September 2026).** The three native Elementor IDs are saved. Fresh signed-out previews pass mobile-menu and horizontal-overflow checks at 375/768/1280/1440; measured pilot geometry matches the reference at all four widths. Expected font families are present and Roboto stylesheets absent. See the [current pilot review and section comparisons](qa/pilot-v020/PILOT_REVIEW.md) for evidence and screenshot limitations. Both pages remain Canvas drafts. Await approval before further sections or publication.
 
@@ -36,6 +36,14 @@ Run the reference with `python -m http.server 8000 --directory reference`, then 
 One option, `annie_yahaya_site_page_ids`, stores `home` and `catalogue`. The plugin does not guess IDs from slugs. Duplicate IDs and non-page IDs are rejected.
 
 ## Plugin behaviour
+
+### Semantic wrappers and editing
+
+`wp-plugin/annie-yahaya-site/includes/semantic-map.php` is the single documented element ID → native/reference tag map. Version 0.2.1 records 13 Home mappings (three each of dl/dt/dd and four strong figures); Catalogue has none. The render filter requires both a configured page and literal page ID 14/15. It changes only paired tag names, preserving widget content and attributes. It does not write Elementor settings or use HTML widgets. Existing inline em/strong/br/span stay in native editable text.
+
+**If Annie duplicates or deletes a mapped element, its replacement/new element will not receive the special tag. Structural changes must go through us so the mapping can be reviewed and updated.** Editing wording in the existing native widget retains its ID and mapping. A manually changed native tag is left untouched. The parser fails closed on malformed mapped structure or duplicate recorded IDs.
+
+After installing 0.2.1, verify native paragraph `19408f7c` in page 14: edit its description, Save Draft, confirm the new wording renders as a dd, then restore the exact reference wording and Save Draft again. This live editor test is pending; local tests do not substitute for it.
 
 - Exact reference Google Fonts URL, only on configured pages.
 - Home CSS: neutraliser → generated scoped styles → scoped coaching → scoped creations → client-photos. Catalogue omits coaching.
@@ -71,15 +79,13 @@ Annie will edit headings, prose, links and images using native Elementor element
 
 PHP 8.3.35 lint passed. Isolated PHP checks passed for scoping, page routing, stylesheet order, exact form markup, homepage SEO, invalid ID rejection and original asset hashes. JavaScript checks passed for pilot menu interaction and loading the original Home script without duplicate handlers. Tests use WordPress API doubles, not a live installed plugin.
 
-The ZIP is installed and page scoping is verified on Home. Four-width pilot fidelity fails because V4 base styles override the reference; fixes are gated on review. Full form browser QA and Lighthouse remain pending. Viewport comparisons are in `qa/pilot/comparison-*.jpg`; full-page captures have documented stitching artifacts and are not acceptance evidence.
+Installed 0.2.0 resolved the pilot CSS conflict; four-width pilot fidelity and Why I build are approved. Version 0.2.1 adds the semantic adapter and is awaiting owner installation. Full form browser QA and Lighthouse remain pending. Current pilot evidence is in `qa/pilot-v020/`; `qa/pilot/` records the historical pre-fix state. Full-page captures have documented stitching artifacts and are not acceptance evidence.
 
 ## Remaining gates
 
-1. Generic V4 compatibility fix approved and implemented in version 0.2.0.
-2. Owner installs the updated plugin ZIP and signs in to the editor.
-3. Finish pilot IDs/ARIA, repeat screenshots and menu/font/overflow QA.
-4. Obtain explicit pilot approval before extending content.
-5. Complete sections, catalogue, photo optimisation/upload, CONTENT_DIFF.md and full QA.
-6. Await explicit publish confirmation before publication, homepage assignment and authorised cache regeneration.
+1. Owner installs 0.2.1 and signs in to the editor for the required native dd edit/save verification.
+2. Finish Home sections, photos and Checkpoint 1 comparisons/checks; obtain owner approval.
+3. Build Catalogue only after Checkpoint 1 approval, then Checkpoint 2 with both-page accessibility checks.
+4. Keep both pages as drafts. Publishing, homepage assignment and cache actions are outside the current authorisation.
 
 Thread artwork was uploaded as WebP media **30** with the reference alt text. Client photos remain untouched. No global colours/fonts/breakpoints were changed. Both pages use the approved Canvas template to avoid duplicate theme chrome.

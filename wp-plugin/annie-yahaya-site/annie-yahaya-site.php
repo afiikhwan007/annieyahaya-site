@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Annie Yahaya Site
  * Description: Page-scoped reference assets, enquiry shortcode and homepage metadata.
- * Version: 0.2.0
+ * Version: 0.2.1
  * Requires at least: 6.8
  * Requires PHP: 7.4
  * Author: Annie Yahaya
@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-const VERSION = '0.2.0';
+const VERSION = '0.2.1';
 const OPTION = 'annie_yahaya_site_page_ids';
 
 /** One option holds both IDs; zero means unconfigured and matches no page. */

@@ -2,6 +2,17 @@
 namespace AnnieYahayaSite;
 if (!defined('ABSPATH')) { exit; }
 
+/** Render only recorded wrapper tags. Never modify Elementor content/settings. */
+function source_semantics($html) {
+    if (!page_role() || !in_array((int) get_queried_object_id(), array(14, 15), true)) { return $html; }
+    $maps = require __DIR__ . '/includes/semantic-map.php';
+    $map = $maps[(int) get_queried_object_id()] ?? array();
+    if (!$map) { return $html; }
+    require_once __DIR__ . '/includes/semantic-parser.php';
+    return replace_semantic_wrappers($html, $map);
+}
+add_filter('elementor/frontend/the_content', __NAMESPACE__ . '\\source_semantics', 15);
+
 /** Only these recorded native elements may receive source ARIA attributes.
  * IDs main/top/nav belong in Elementor General > ID, never injected here.
  * Catalogue is intentionally empty until its build is approved.
@@ -15,11 +26,13 @@ function source_aria($html) {
             'd4617b3' => array('tag' => 'BUTTON', 'attributes' => array('aria-expanded' => 'false', 'aria-controls' => 'nav')),
             '282c8e1a' => array('tag' => 'NAV', 'attributes' => array('aria-label' => 'Main navigation')),
             '2a39dad0' => array('tag' => 'SECTION', 'attributes' => array('aria-label' => 'The thread running through Annie’s work')),
+            '84df354' => array('tag' => 'SECTION', 'attributes' => array('aria-labelledby' => 'work-title')),
+            '36a8bafb' => array('tag' => 'DIV', 'attributes' => array('aria-labelledby' => 'evidence-title')),
         ),
         15 => array(),
     );
     $map = $maps[(int) get_queried_object_id()];
-    $arrows = (int) get_queried_object_id() === 14 ? array('29e9c792', '17887ea4') : array();
+    $arrows = (int) get_queried_object_id() === 14 ? array('29e9c792', '17887ea4', '156fd2b8', '84583ad', '29771268') : array();
     $processor = new \WP_HTML_Tag_Processor($html);
     $arrow = false;
     while ($processor->next_tag(array('tag_closers' => 'visit'))) {

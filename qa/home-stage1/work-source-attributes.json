@@ -1,0 +1,77 @@
+{
+  "attributes": {
+    "Work 8 h2": {
+      "id": "work-title"
+    },
+    "Work 28 a": {
+      "data-interest": "organisational"
+    },
+    "Work 36 a": {
+      "data-interest": "build"
+    },
+    "Work 40 h3": {
+      "id": "evidence-title"
+    },
+    "Work 37 evidence": {
+      "aria-labelledby": "evidence-title"
+    },
+    "Work with Annie": {
+      "id": "work",
+      "aria-labelledby": "work-title"
+    }
+  },
+  "semantics": {
+    "Work 18 dt": {
+      "from": "span",
+      "to": "dt"
+    },
+    "Work 19 dd": {
+      "from": "span",
+      "to": "dd"
+    },
+    "Work 17 dl": {
+      "from": "div",
+      "to": "dl"
+    },
+    "Work 26 dt": {
+      "from": "span",
+      "to": "dt"
+    },
+    "Work 27 dd": {
+      "from": "span",
+      "to": "dd"
+    },
+    "Work 25 dl": {
+      "from": "div",
+      "to": "dl"
+    },
+    "Work 34 dt": {
+      "from": "span",
+      "to": "dt"
+    },
+    "Work 35 dd": {
+      "from": "span",
+      "to": "dd"
+    },
+    "Work 33 dl": {
+      "from": "div",
+      "to": "dl"
+    },
+    "Work 43 strong": {
+      "from": "span",
+      "to": "strong"
+    },
+    "Work 48 strong": {
+      "from": "span",
+      "to": "strong"
+    },
+    "Work 53 strong": {
+      "from": "span",
+      "to": "strong"
+    },
+    "Work 58 strong": {
+      "from": "span",
+      "to": "strong"
+    }
+  }
+}
